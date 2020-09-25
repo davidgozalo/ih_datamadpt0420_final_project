@@ -1,4 +1,4 @@
-
+(https://content.api.news/v3/images/bin/0909e514b5fc28ed3baf1b70fa7bb773)
 ### **Savings Decission Automation** 
 The project aims to explore the capabilities of a pipeline to use a persons dataset, a product dataset and specific business rules to produce a match between a person and an investment portfolio.
 
@@ -46,7 +46,10 @@ Although they will find structural and status quo resistances, we believe there 
 The aim of this project is to replicate in an academical environment the processes that take place in these robo-advisers, in order to challenge them with a naïve view, and to try to bring new concepts such as "white box" focus or the use of deep learning in the advisory process. 
 
 ### **Configuration**
+ (https://www.forbes.com/advisor/investing/what-is-robo-advisor/)
  
+ 
+ (https://en.wikipedia.org/wiki/Robo-advisor)
 
 ### **Usage**
  

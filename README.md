@@ -12,9 +12,26 @@ Design: gather information to define the scope of the project.
     - what kind of portfolios are we going to group
     - what are the rules that are going to link persons segments and product portfolios 
 2. Define the processes
+    - data cleaning
+        - selecting the relevant variables (columns)
+        - deciding about null values (in principle, eliminate)
     - user input data
         - chose between a general demonstration or a ones specific customer demostration
-3.
+    - pipeline procedures
+        - assigning every person to a segment
+        - assign a portfolio to each segment
+        - for each customer, depending on speficic data (e.g. ammount+ selecting criteria), select the specific assets that will conform the portfolio
+    - delivery
+        - output: a summary of segments and portfolios or a one customer recommendation
+3. Define complementary processes
+    - new data recommendation
+        - extract the basic person variables necesary
+        - create a user input data for these variables
+        - create a pipeline to deliver a particular recommendation for this specific data
+     - unsupervised classification
+        - generate a clustering for persons
+        - generate a clustering for products
+        - try to invoke business rules to link persons and products
 
 ### **Technology stack**
 Python, Pandas, Scipy, Scikit-learn, etc. Indicate the technological nature of the software, including primary programming language(s), main libraries and whether the software is intended as standalone or as a module in a framework or other ecosystem.

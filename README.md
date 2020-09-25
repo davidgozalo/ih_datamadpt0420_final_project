@@ -7,7 +7,7 @@ Design: gather information to define the scope of the project.
 
 ### **Work plan**
 0. Design
-1. Define business rules:
+1. Define business rules
     - how are we going to segment the persons dataset
     - what kind of portfolios are we going to group
     - what are the rules that are going to link persons segments and product portfolios 
@@ -32,18 +32,24 @@ Design: gather information to define the scope of the project.
         - generate a clustering for persons
         - generate a clustering for products
         - try to invoke business rules to link persons and products
+     - whitebox business rules
+        - transpanrency in business rules used
+        - possibility of using business rules as input (fine tuning)
 
 ### **Technology stack**
-Python, Pandas, Scipy, Scikit-learn, etc. Indicate the technological nature of the software, including primary programming language(s), main libraries and whether the software is intended as standalone or as a module in a framework or other ecosystem.
+Python, Pandas, Numpy, Pipelines, Scikit-learn.
+Jupyter, Pycharm
 
 ### **Core technical concepts and inspiration**
-Why does it exist? Frame your project for the potential user. Compare/contrast your project with other, similar projects so the user knows how it is different from those projects. Highlight the technical concepts that your project demonstrates or supports. Keep it very brief.
+Algorithms have transformed many industries, and the finacial sector is not an exception. Among many other human processes that have been auomated, the investment decission advisory based on robots, has developed consistently since 2008. 
+Although they will find structural and status quo resistances, we believe there is a future for these tools (the pandemic will accelerate the change the way in which we deal with our finances in a "remote" environment).
+The aim of this project is to replicate in an academical environment the processes that take place in these robo-advisers, in order to challenge them with a naïve view, and to try to bring new concepts such as "white box" focus or the use of deep learning in the advisory process. 
 
 ### **Configuration**
-Requeriments, prerequisites, dependencies, installation instructions.
+ 
 
 ### **Usage**
-Parameters, return values, known issues, thrown errors.
+ 
 
 ### **Folder structure**
 ```
@@ -69,12 +75,14 @@ Parameters, return values, known issues, thrown errors.
 > Do not forget to include `__trash__` and `.env` in `.gitignore` 
 
 ### **ToDo**
-Next steps, features planned, known bugs (shortlist).
+Agree on the scope
+Deliver business rules
+Cleaning data
 
 ### **Further info**
-Credits, alternatives, references, license.
+ 
 
 ### **Contact info**
-Getting help, getting involved, hire me please.
+ 
 
 

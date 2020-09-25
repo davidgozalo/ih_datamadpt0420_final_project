@@ -3,11 +3,17 @@
 The project aims to explore the capabilities of a pipeline to use a persons dataset, a product dataset and specific business rules to produce a match between a person and an investment portfolio.
 
 ### **Status**
-Design: gather information to define the scope of the project
+Design: gather information to define the scope of the project.
 
 ### **Work plan**
-1.
-2.
+0. Design
+1. Define business rules:
+    - how are we going to segment the persons dataset
+    - what kind of portfolios are we going to group
+    - what are the rules that are going to link persons segments and product portfolios 
+2. Define the processes
+    - user input data
+        - chose between a general demonstration or a ones specific customer demostration
 3.
 
 ### **Technology stack**

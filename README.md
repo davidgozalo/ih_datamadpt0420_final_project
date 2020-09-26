@@ -48,8 +48,8 @@ Jupyter, Pycharm
 
 ### **Core technical concepts and inspiration**
 Algorithms have transformed many industries, and the finacial sector is not an exception. Among many other human processes that have been auomated, the investment decission advisory based on robots, has developed consistently since 2008. 
-Although they will find structural and status quo resistances, we believe there is a future for these tools (the pandemic will accelerate the change the way in which we deal with our finances in a "remote" environment).
-The aim of this project is to replicate in an academical environment the processes that take place in these robo-advisers, in order to challenge them with a naïve view, and to try to bring new concepts such as "white box" focus or the use of deep learning in the advisory process. 
+Although they will find structural and status quo resistances, we believe there is a future for these tools (the pandemic will accelerate the change in the way in which we deal with our finances in a "remote" environment).
+The aim of this project is to replicate in an academical environment the processes that takes place in these robo-advisers, in order to challenge them with a naïve view, and to try to bring new concepts such as "white box" focus or the use of deep learning in the advisory process. 
 
 ### **Links*
  (https://www.forbes.com/advisor/investing/what-is-robo-advisor/)

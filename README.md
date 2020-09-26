@@ -85,9 +85,10 @@ The aim of this project is to replicate in an academical environment the process
 > Do not forget to include `__trash__` and `.env` in `.gitignore` 
 
 ### **ToDo**
-Agree on the scope
-Deliver business rules
-Cleaning data
+- Agreement on the scope
+- Documentation on business rules
+- Exploratory analysis
+- Data cleaning
 
 ### **Further info**
  

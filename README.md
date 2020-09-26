@@ -12,10 +12,13 @@ Design: gather information to define the scope of the project.
     - how are we going to segment the persons dataset
     - what kind of portfolios are we going to group
     - what are the rules that are going to link persons segments and product portfolios 
-2. Define the processes
+2. Define the basic processes
+    #Preparation
     - data cleaning
+        - exploratory data analysis
         - selecting the relevant variables (columns)
         - deciding about null values (in principle, eliminate)
+    #Operation
     - user input data
         - chose between a general demonstration or a ones specific customer demostration
     - pipeline procedures

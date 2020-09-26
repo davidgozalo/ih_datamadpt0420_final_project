@@ -22,7 +22,7 @@ Design: gather information to define the scope of the project.
         
    b. Operation
     - user input data
-        - chose between a general demonstration or a ones specific customer demostration
+        - chose between a general demonstration or a one specific customer demostration
     - pipeline procedures
         - assigning every person to a segment
         - define portfolio classes

@@ -1,55 +1,73 @@
-# Data Project README file
+![Image](https://content.api.news/v3/images/bin/0909e514b5fc28ed3baf1b70fa7bb773)
 
-The README file describes the essence of the project playing the most important role. Most visitors will simply scroll down about twice on the README and leave if they are not interested. So, the README file should provide the reason **why** to checkout your project!!!). 
-Bearing that in mind, your job is to: 
-- Tell them what it is (with context).
-- Show them what it looks like in action.
-- Show them how they use it.
-- Tell them any other relevant details.
+### **Savings Decission Automation** 
+The project aims to explore the capabilities of a pipeline to use a persons dataset, a product dataset and specific business rules to produce a match between a person and an investment portfolio.
 
-![Image](https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2019/05/aiexcerpt.png)
+### **Status**
+Design: gather information to define the scope of the project.
 
----
+### **Work plan**
+0. Design
+1. Define business rules
+    - how are we going to segment the persons dataset
+    - what kind of portfolios are we going to group
+    - what are the rules that are going to link persons segments and product portfolios 
+2. Define the basic processes
 
-## **Formatting**
-Your readers will most likely view your README in a browser so please keep that in mind when formatting its content: 
-- Use proper format when necesary (e.g.: `import pandas as pd`). 
-- Categorize content using two or three levels of header beneath. 
-- Make use of **emphasis** to call out important words. 
-- Link to project pages for related libraries you mention. Link to Wikipedia, Wiktionary, even Urban Dictionary definitions for words of which a reader may not be familiar. Make amusing cultural references. 
-- Add links to related projects or services. 
+   a. Preparation
+    - data cleaning
+        - exploratory data analysis
+        - selecting the relevant variables (columns)
+        - deciding about null values (in principle, eliminate)
+        
+   b. Operation
+    - user input data
+        - chose between a general demonstration or a one specific customer demostration
+    - pipeline procedures
+        - assigning every person to a segment
+        - define portfolio classes
+        - assign a portfolio class to each segment
+        - for each customer, depending on speficic data (e.g. amount+ selecting criteria), select the specific assets that will conform the portfolio
+    - delivery
+        - output: a summary of segments and portfolios or a one customer recommendation
+3. Define complementary processes
+    - new data recommendation
+        - extract the basic person variables necesary
+        - create a user input data for these variables
+        - create a pipeline to deliver a particular recommendation for this specific data
+     - unsupervised classification
+        - generate a clustering for persons
+        - generate a clustering for products
+        - try to invoke business rules to link persons and products
+     - whitebox business rules
+        - transpanrency in business rules used
+        - possibility of using business rules as input (fine tuning)
 
-> Here you have a markdown cheatsheet [Link](https://commonmark.org/help/) and tutorial [Link](https://commonmark.org/help/tutorial/).
+### **Technology stack**
+Python, Pandas, Numpy, Pipelines, Scikit-learn.
+Jupyter, Pycharm
 
+### **Core technical concepts and inspiration**
+Algorithms have transformed many industries, and the finacial sector is not an exception. Among many other human processes that have been auomated, the investment decission advisory based on robots has developed consistently since 2008. 
+Although they will find structural and status quo resistances, we believe there is a future for these tools (the pandemic will accelerate the change in the way in which we deal with our finances in a "remote" environment).
+The aim of this project is to replicate in an academical environment the processes that take place in these robo-advisers, in order to challenge them with a naïve view, and to try to bring new concepts such as "white box" focus or the use of deep learning in the advisory process. 
 
-## **Start writing ASAP:**
-*Last but not least, by writing your README soon you give yourself some pretty significant advantages. Most importantly, you’re giving yourself a chance to think through the project without the overhead of having to change code every time you change your mind about how something should be organized or what should be included.*
+### **Links*
+ (https://www.forbes.com/advisor/investing/what-is-robo-advisor/)
+ 
+ 
+ (https://en.wikipedia.org/wiki/Robo-advisor)
+ 
+ 
+ (https://www.kaggle.com/stefanoleone992/mutual-funds-and-etfs?select=Mutual+Funds.csv)
+ 
+ 
+ (https://data.world/cfpb/financial-well-being-survey-data)
 
+### **Usage**
+ 
 
-## **Suggested Structure:**
-
-### :raising_hand: **Name** 
-Self-explanatory names are best. If the name sounds too vague or unrelated, it may be a signal to move on. It also must be catchy. Images, Logo, Gif or some color is strongly recommended.
-
-### :baby: **Status**
-Alpha, Beta, 1.1, Ironhack Data Analytics Final Project, etc... It's OK to write a sentence, too. The goal is to let interested people know where this project is at.
-
-### :running: **One-liner**
-Having a one-liner that describes the pipeline/api/app is useful for getting an idea of what your code does in slightly greater detail. 
-
-### :computer: **Technology stack**
-Python, Pandas, Scipy, Scikit-learn, etc. Indicate the technological nature of the software, including primary programming language(s), main libraries and whether the software is intended as standalone or as a module in a framework or other ecosystem.
-
-### :boom: **Core technical concepts and inspiration**
-Why does it exist? Frame your project for the potential user. Compare/contrast your project with other, similar projects so the user knows how it is different from those projects. Highlight the technical concepts that your project demonstrates or supports. Keep it very brief.
-
-### :wrench: **Configuration**
-Requeriments, prerequisites, dependencies, installation instructions.
-
-### :see_no_evil: **Usage**
-Parameters, return values, known issues, thrown errors.
-
-### :file_folder: **Folder structure**
+### **Folder structure**
 ```
 └── project
     ├── __trash__
@@ -72,28 +90,16 @@ Parameters, return values, known issues, thrown errors.
 
 > Do not forget to include `__trash__` and `.env` in `.gitignore` 
 
-### :shit: **ToDo**
-Next steps, features planned, known bugs (shortlist).
+### **ToDo**
+- Agreement on the scope
+- Documentation on business rules
+- Exploratory analysis
+- Data cleaning
 
-### :information_source: **Further info**
-Credits, alternatives, references, license.
+### **Further info**
+ 
 
-### :love_letter: **Contact info**
-Getting help, getting involved, hire me please.
+### **Contact info**
+ 
 
----
-
-> Here you have some repo examples:
-- [Mamba (OCR-Translator-Assistant)](https://github.com/YonatanRA/OCR-translator-assistant-project)
-- [Art Classification](https://github.com/serguma/art_classification)
-- [OSNet-IBN (width x 1.0) Lite](https://github.com/RodMech/OSNet-IBN1-Lite)
-- [Movie Founder](https://github.com/Alfagu/final-project-Ironhack-0419mad)
-- [Convolutional Neural Network to detect Pneumonia](https://github.com/jmolins89/final-project)
-- [Brain tumor detection project](https://github.com/alonsopdani/brain-tumor-detection-project)
-- [Policy-Gradient-Methods](https://github.com/cyoon1729/Policy-Gradient-Methods)
-
-> Here you have some tools and references:
-- [Make a README](https://www.makeareadme.com/)
-- [Awesome README](https://github.com/matiassingers/awesome-readme)
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 

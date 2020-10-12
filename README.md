@@ -100,10 +100,14 @@ The aim of this project is to replicate in an academical environment the process
 > Do not forget to include `__trash__` and `.env` in `.gitignore` 
 
 ### **ToDo**
-- Agreement on the scope
 - Documentation on business rules
-- Exploratory analysis
-- Data cleaning
+- Data cleaning: NaN for people and products data
+- Data cleaning: exclude institutional funds
+- Define questionary to identify customer profile
+- Define an aggregated report on the proposed selection of funds
+- Define comments on the report
+- Define variables to use in the unsupervised classification (for people and products)
+- Application to manage basic rules of each portfolio in the dictionary
 
 ### **Further info**
  

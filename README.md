@@ -6,7 +6,7 @@ The project aims to explore the capabilities of a pipeline to use a persons data
 ### **Status**
 Design: gather information to define the scope of the project
 
-## Define business rules:
+Define business rules:
 
     -segments of people
     
@@ -16,7 +16,7 @@ Design: gather information to define the scope of the project
     
     -rules that personalize a portfolio for a person
     
-## Operation:
+Operation:
 
     -assign a segment to a specific portfolio
     

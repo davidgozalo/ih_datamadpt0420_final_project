@@ -4,17 +4,15 @@
 The project aims to explore the capabilities of a pipeline to use a persons dataset, a product dataset and specific business rules to produce a match between a person and an investment portfolio.
 
 ### **Status**
--Design: gather information to define the scope of the project
-
--Define business rules:
-    -segments of people
-    -portfolios
-    -rules that link segments and portfolios
-    -rules that personalize a portfolio for a person
-    
--Operation:
-    -assign a segment to a specific portfolio
-    -optimize a portfolio for a specific person
+- Design: gather information to define the scope of the project
+- Define business rules:
+    - segments of people
+    - portfolios
+    - rules that link segments and portfolios
+    - rules that personalize a portfolio for a person
+- Operation:
+    - assign a segment to a specific portfolio
+    - optimize a portfolio for a specific person
 
 
 ### **Work plan**

@@ -4,10 +4,20 @@
 The project aims to explore the capabilities of a pipeline to use a persons dataset, a product dataset and specific business rules to produce a match between a person and an investment portfolio.
 
 ### **Status**
-Design: gather information to define the scope of the project.
+- Design: gather information to define the scope of the project   :heavy_check_mark:
+- Define business rules:
+    - segments of people   :heavy_check_mark:
+    - portfolios   :heavy_check_mark:
+    - rules that link segments and portfolios   :heavy_check_mark:
+    - rules that personalize a portfolio for a person   :heavy_check_mark:
+- Operation:
+    - assign a segment to a specific portfolio   :heavy_check_mark:
+    - optimize a portfolio for a specific person   :heavy_check_mark:
+    - define questionary to identify customer profile   :heavy_check_mark:
+
 
 ### **Work plan**
-0. Design
+0. Design 
 1. Define business rules
     - how are we going to segment the persons dataset
     - what kind of portfolios are we going to group
@@ -48,7 +58,7 @@ Python, Pandas, Numpy, Pipelines, Scikit-learn.
 Jupyter, Pycharm
 
 ### **Core technical concepts and inspiration**
-Algorithms have transformed many industries, and the finacial sector is not an exception. Among many other human processes that have been auomated, the investment decission advisory based on robots has developed consistently since 2008. 
+Algorithms have transformed many industries, and the finacial sector is not an exception. Among many other human processes that have been automated, the investment decission advisory based on robots has developed consistently since 2008. 
 Although they will find structural and status quo resistances, we believe there is a future for these tools (the pandemic will accelerate the change in the way in which we deal with our finances in a "remote" environment).
 The aim of this project is to replicate in an academical environment the processes that take place in these robo-advisers, in order to challenge them with a naïve view, and to try to bring new concepts such as "white box" focus or the use of deep learning in the advisory process. 
 
@@ -91,10 +101,13 @@ The aim of this project is to replicate in an academical environment the process
 > Do not forget to include `__trash__` and `.env` in `.gitignore` 
 
 ### **ToDo**
-- Agreement on the scope
 - Documentation on business rules
-- Exploratory analysis
-- Data cleaning
+- Data cleaning: NaN for people and products data
+- Data cleaning: exclude institutional funds
+- Define an aggregated report on the proposed selection of funds
+- Define comments on the report
+- Define variables to use in the unsupervised classification (for people and products)
+- Application to manage basic rules of each portfolio in the dictionary
 
 ### **Further info**
  

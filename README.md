@@ -13,6 +13,7 @@ The project aims to explore the capabilities of a pipeline to use a persons data
 - Operation:
     - assign a segment to a specific portfolio   :heavy_check_mark:
     - optimize a portfolio for a specific person   :heavy_check_mark:
+    - define questionary to identify customer profile   :heavy_check_mark:
 
 
 ### **Work plan**
@@ -103,7 +104,6 @@ The aim of this project is to replicate in an academical environment the process
 - Documentation on business rules
 - Data cleaning: NaN for people and products data
 - Data cleaning: exclude institutional funds
-- Define questionary to identify customer profile
 - Define an aggregated report on the proposed selection of funds
 - Define comments on the report
 - Define variables to use in the unsupervised classification (for people and products)

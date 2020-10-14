@@ -16,7 +16,7 @@ The project aims to explore the capabilities of a pipeline to use a persons data
 
 
 ### **Work plan**
-0. Design
+0. Design :heavy_check_mark:
 1. Define business rules
     - how are we going to segment the persons dataset
     - what kind of portfolios are we going to group

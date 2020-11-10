@@ -1,6 +1,6 @@
 ![Image](https://content.api.news/v3/images/bin/0909e514b5fc28ed3baf1b70fa7bb773)
 
-### **Savings Decission Automation**
+### **Savings Decision Automation**
 The project aims to explore the capabilities of a pipeline to use a persons dataset, a product dataset and specific business rules to produce a match between a person and an investment portfolio.
 
 ### **Status**
